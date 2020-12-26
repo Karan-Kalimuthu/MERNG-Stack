@@ -1,0 +1,26 @@
+{
+  "name": "merng-stack",
+  "version": "1.0.0",
+  "description": "MERNG Stack Learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karan-Kalimuthu/MERNG-Stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karan-Kalimuthu/MERNG-Stack/issues"
+  },
+  "homepage": "https://github.com/Karan-Kalimuthu/MERNG-Stack#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6"
+  }
+}
