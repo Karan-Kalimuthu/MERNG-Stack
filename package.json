@@ -4,7 +4,7 @@
   "description": "MERNG Stack Learning",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon start",
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
