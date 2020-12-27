@@ -11,8 +11,10 @@ const { MONGODB } = require('./config');
 //Creating server
 const server = new ApolloServer({
     typeDefs,
-    resolvers
+    resolvers,
+    context: ({ req }) => ({ req })
 });
+
 
 // Connecting to the database and runnning server
 mongoose
